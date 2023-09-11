@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- https://www.youtube.com/watch?v=-qfEOE4vtxE  Video voor bootstrap tutorial-->
+<!-- https://getbootstrap.com/docs/5.3/components/accordion/ Bootstrap website als je iets wilt veranderen of wilt te weten komen-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
