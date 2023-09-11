@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>Hello world</h1>
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
