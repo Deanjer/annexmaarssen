@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- https://www.youtube.com/watch?v=-qfEOE4vtxE  Video voor bootstrap tutorial-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
