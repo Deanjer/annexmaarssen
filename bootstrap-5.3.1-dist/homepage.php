@@ -16,11 +16,15 @@
 </nav>
 <div class="text-bg-danger p-3"><span class="fs-4 fw-bold">KOOP JE TICKETS</span>
 <div class="btn-group">
-  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Small button
+  <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Kies je film
   </button>
   <ul class="dropdown-menu">
-    ...
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
   </ul>
 </div>
 <button type="button" class="btn btn-light btn btn-outline-danger">Bestel tickets</button>
