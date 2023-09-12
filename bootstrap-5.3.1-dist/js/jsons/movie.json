@@ -4,14 +4,14 @@
     "movie_name": "The Shawshank Redemption",
     "movie_year": 1994,
     "age_rating": 18,
-    "price": 16.8,
+    "price": 16.80,
     "kijkwijzer": {
         "Geweld": true,
         "Angst": true,
         "Grof taalgebruik": true,
         "Drugs- en/of alcoholgebruik": false,
         "Discriminatie": false,
-        "Seks": false,
+        "Seks": true,
         "gevaarlijk gedrag": true
     },
     "duration": "2h 22m",
