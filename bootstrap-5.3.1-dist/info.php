@@ -44,6 +44,11 @@
   </div>
 </nav>
 <div class="text-bg-dark p-3"><H1>Hello world</H1></div>
+<div class="info-main">
+  <div class="info-main-top"></div>
+  <div class="info-main-middle"></div>
+  <div class="info-main-bottom"></div>
+</div>
     <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
