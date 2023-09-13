@@ -9,9 +9,12 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-<nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+<nav class="navbar bg-body-tertiary d-flex">
+  <div class="container mx-auto p-2">
+    <a class="navbar-brand p-2 flex-grow-1" href="./homepage.php"><img src="./img/logo_hoofd.png" alt="Bootstrap" width="150" height="50"></a>
+    <a class="nav-link p-2" href="./agenda.php">FILM AGENDA</a>
+    <a class="nav-link p-2" href="#">ALLE VESTINGEN</a>
+    <a class="nav-link p-2" href="./connect.php">CONTACT</a>
   </div>
 </nav>
 <div class="text-bg-danger p-3"><span class="fs-4 fw-bold">KOOP JE TICKETS</span>
