@@ -43,9 +43,6 @@ body{
     margin-top: 10px;
     width: 600px;
 }
-.locatie{
-    height: 590px
-}
 #BekijkFilms{
     margin-top: 30px;
 }
@@ -53,4 +50,8 @@ body{
     width: 250px;
     height: 50px;
     color: #9E2629;
+}
+.locatie{
+    height: 590px;
+    background-color: white;
 }
