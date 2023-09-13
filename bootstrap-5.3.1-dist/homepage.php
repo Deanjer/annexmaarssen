@@ -17,12 +17,12 @@
     <a class="nav-link p-2" href="./connect.php">CONTACT</a>
   </div>
 </nav>
-<div class="text-bg-danger p-3"><span class="fs-4 fw-bold">KOOP JE TICKETS</span>
+<div class="text-bg-danger p-3 d-flex "><span class="fs-4 fw-bold p-2">KOOP JE TICKETS</span>
 <div class="btn-group">
-  <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+  <button type="button" class="btn btn-danger dropdown-toggle p-2" data-bs-toggle="dropdown" aria-expanded="false">
     Kies je film
   </button>
-  <ul class="dropdown-menu">
+  <ul class="dropdown-menu p-2">
     <li><a class="dropdown-item" href="#">Action</a></li>
     <li><a class="dropdown-item" href="#">Another action</a></li>
     <li><a class="dropdown-item" href="#">Something else here</a></li>
