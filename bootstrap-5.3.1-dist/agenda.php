@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/agenda.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg" style="background-color: #9E2629;">
@@ -43,7 +44,11 @@
     </div>
   </div>
 </nav>
-<div class="text-bg-dark p-3"><H1>Hello world</H1></div>
+<div class="text-bg-dark p-3">
+    <div>
+      <h1>Film Agenda</h1>
+    </div>
+</div>
     <script src="js/bootstrap.bundle.js"></script>
 </div>
 

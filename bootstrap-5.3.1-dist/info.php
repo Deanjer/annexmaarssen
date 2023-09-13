@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informatie</title>
+    <link rel="stylesheet" href="./css/info.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    
 </head>
 <body>
 <nav class="navbar navbar-expand-lg" style="background-color: #9E2629;">
@@ -45,7 +47,9 @@
 </nav>
 <div class="text-bg-dark p-3"><H1>Hello world</H1></div>
 <div class="info-main">
-  <div class="info-main-top"></div>
+  <div class="info-main-top">
+
+  </div>
   <div class="info-main-middle"></div>
   <div class="info-main-bottom"></div>
 </div>
