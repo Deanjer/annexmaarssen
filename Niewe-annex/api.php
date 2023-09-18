@@ -28,4 +28,5 @@ curl_close($ch);
 $response = json_decode($response);
 // Dump the response in the browser
 // Use the $response object as you wish!
+// var_dump($response)
 ?>

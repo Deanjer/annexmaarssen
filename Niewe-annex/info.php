@@ -9,6 +9,7 @@
 </head>
 
 <body>
+ <?php include 'api.php'?>
     <div class="tst"></div>
     <div class="info-main">
         <div class="info-main-container">
