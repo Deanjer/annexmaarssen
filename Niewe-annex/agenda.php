@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="./css/agenda.css">
 </head>
 <body>
-
+    <?php include 'api.php' ?>
     <div>
         <h1 id="title">FILM AGENDA</h1>
     </div>
     <div id="agenda">
-        <div class="film">
+        <a href="<?php echo "./info.php" ?>"><div class="film">
             <div class="slot"></div>
             <img class="poster" src="./img/oppenheimerposter.jpg" alt="oppenheimer">
             <div class="movietitle"><h3 class="name">Oppenheimer</h3></div>
             <h5 class="desciption" id="oppenheimer">THE WORLD FOREVER CHANGES.</h5>
-        </div>
+        </div></a>
         <div class="film">
             <div class="slot"></div>
             <img class="poster" id="barbieposter" src="./img/barbieposter.jpg" alt="barbie">
