@@ -4,4 +4,54 @@ body{
 #header{
     height: 161px;
     width: auto;
+    display: flex;
+}
+#container{
+    background-color: black;
+    width: auto;
+    height: auto;
+    padding-top: 115px;
+    padding-bottom: 17px;
+    padding-left: 171px;
+    padding-right: 171px;
+}
+.content{
+    height: 20px;
+    width: auto;
+    margin-bottom: 50px;
+    padding: 80px;
+    background-color: #9E2629;
+    display: flex;
+    flex-direction: column;
+}
+.introductie{
+    height: 304px;
+}
+.introductie H1{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -5px;
+    font-size: 50px;
+}
+.introductie p{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+#introtext{
+    margin-top: 10px;
+    width: 600px;
+}
+#BekijkFilms{
+    margin-top: 30px;
+}
+#BekijkFilms button{
+    width: 250px;
+    height: 50px;
+    color: #9E2629;
+}
+.locatie{
+    height: 590px;
+    background-color: white;
 }
