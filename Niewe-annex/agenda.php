@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/agenda.css">
 </head>
 <body>
+    
     <?php include 'api.php' ?>
     <div>
         <h1 id="title">FILM AGENDA</h1>
@@ -270,9 +271,11 @@ curl_close($ch);
 $response = json_decode($response); 
 
 // Dump the response in the browser 
+
 echo "<div id='testFilmOverview'>";
 for ($i = 0; $i < count($response->results); $i++) {
   echo "<div id='testFilmOBJ'>";
+  echo "<a href='info.php?id=" . $response->results[$i]->movie_id . "'>";
   echo "<img style='width: 500px;'; src=\"". $response->results[$i]->poster . "\"/>";
   echo "<div id='testTextOBJ'>";
   echo "<span>Title: ". $response->results[$i]->movie_name ."</span>" . "<br><br>";
@@ -284,12 +287,11 @@ for ($i = 0; $i < count($response->results); $i++) {
   echo "</div>";
 }
 echo "</div>";
-
 // Use the $response object as you wish!
 
-echo "<pre>";
-var_dump($response);
-echo "</pre>";
+// echo "<pre>";
+// var_dump($response);
+// echo "</pre>";
 
 ?>
     </body>

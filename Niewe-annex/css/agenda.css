@@ -8,6 +8,9 @@
 body{
     background-color: black;
 }
+a{
+    text-decoration: none;
+}
 #title {
     background-color: #9e2629;
 }
@@ -50,7 +53,7 @@ body{
     background-color: #9e2629;
 }
 
-#barbieposter {
+/* #barbieposter {
     width: 	179px;
 }
 
@@ -60,7 +63,7 @@ body{
 
 #tmntposter {
     width: 	179px;
-}
+} */
 
 
 #granturismoposter {
