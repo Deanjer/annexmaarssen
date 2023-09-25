@@ -55,7 +55,7 @@
                                 <p class="text-spacing"><?php echo $response->movie_date ?></p>
                                 <p class="text-spacing"><?php echo $response->big_description ?></p>
                                 <div class="info-films-container-right">
-                                <span class="info-films">Genre: <?php echo $response->genres ?> </span>
+                                <span class="info-films">Genre: <?php echo join (", ",$response->genres);?></span>
                                 <span class="info-films">Filmlengte: <?php echo $response->runtime ?> </span>
                                 <span class="info-films">Land: <?php echo $response->country_of_origin ?> </span>
                                 <span class="info-films">Imdb score: <?php echo $response->rating ?> </span>
@@ -78,7 +78,7 @@
             </div>
         </div>
     </div>
-<?php   //echo '<pre>',print_r($response,1),'</pre>'; ?>
+<?php  //echo '<pre>',print_r($response,1),'</pre>'; ?>
 </body>
 
 </html>
