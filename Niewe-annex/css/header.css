@@ -24,7 +24,7 @@ header{
     height: 10px;
 }
 #filmagenda{
-    border: solid black;
+    /* border: solid black; */
     height: 90px;
     width: 200px;
     text-align: center;
@@ -36,14 +36,14 @@ header{
     color: black;
 }
 #vesteginen{
-    border: solid black;
+    /* border: solid black; */
     height: 90px;
     width: 200px;
     text-align: center;
     padding-top: 70px;
 }
 #contact{
-    border: solid black;
+    /* border: solid black; */
     height: 90px;
     width: 200px;
     text-align: center;
