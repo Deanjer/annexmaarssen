@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/agenda.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
 
     <?php include 'api.php' ?>
-    <div>
+    <!-- <div>
         <h1 id="title">FILM AGENDA</h1>
-    </div>
+    </div> -->
      <?php 
 // Setting up the cURL request 
 $ch = curl_init(); 
@@ -59,6 +60,15 @@ $response = json_decode($response);
     <div class="agenda-top-container">
         <div class="agenda-top-title">
             <h2 class="">Film Agenda</h2>
+        </div>
+        <div class="agenda-top-container-buttons">
+        <div class="material-symbols-outlined">
+        tune
+        </div> 
+        <div class="agenda-top-films"><p>FILMS</p></div>
+        <div class="agenda-top-week"><p>DEZE WEEK</p></div>
+        <div class="agenda-top-vandaag"><p>VANDAAG</p></div>
+        <div class="agenda-top-categorie"><p>CATEGORIE</p></div>
         </div>
     </div>
 <?php
