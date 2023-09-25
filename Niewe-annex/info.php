@@ -9,15 +9,32 @@
 </head>
 
 <body>
+ <?php include 'api.php'?>
     <div class="tst"></div>
     <div class="info-main">
         <div class="info-main-container">
             <div class="info-main-top">
-                <div class="info-main-top-title"></div>
+                <div class="info-main-top-title">
+                <?php
+                        
+                        if (isset($response->poster) && isset($response->movie_name)) {
+                            // echo '<img src="' . $response->poster . '" alt="Poster">';
+                            echo '<h1 class="movie-title-top">' . $response->movie_name . '</h1>';
+                        } else {
+                            echo '<p>Reload.</p>';
+                        }
+                    
+                    
+
+                        // echo $response($results)
+                        // echo '<pre>',print_r($response,1),'</pre>';
+                    
+                    ?>
+                </div>
             </div>
             <div class="info-main-middle">
                 <div class="info-main-middle-left">
-                    <img class="poster" src="./img/oppenheimerposter.jpg" alt="">
+                    <img class="poster" src="<?php echo  $response->poster; ?>" alt="">
                 </div>
                 <div class="info-main-middle-right">
                     <div class="info-main-middle-right-container">
@@ -35,27 +52,33 @@
                         </div>
                         <div class="info-main-middle-right-text">
                             <div class="info-main-release">
-                                <p>Release: 20-07-2023</p>
+                                <p class="text-spacing"><?php echo $response->movie_date ?></p>
+                                <p class="text-spacing"><?php echo $response->big_description ?></p>
+                                <div class="info-films-container-right">
+                                <span class="info-films">Genre: <?php echo join (", ",$response->genres);?></span>
+                                <span class="info-films">Filmlengte: <?php echo $response->runtime ?> </span>
+                                <span class="info-films">Land: <?php echo $response->country_of_origin ?> </span>
+                                <span class="info-films">Imdb score: <?php echo $response->rating ?> </span>
+                                <span class="info-films">Cast: <?php echo $response->cast ?> </span>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="info-main-bottom">
-                <div class="info-main-bottom-title"></div>
+                <div class="info-main-bottom-title">
+                    <h2 id="bottom-title">KOOP JE TICKETS</h2>
+                </div>
                 <div class="info-main-bottom-video">
-
-                    <iframe class="trailer-video" 
-                        type="text/html"
-                        src="https://www.youtube.com/embed/uYPbbksJxIg?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
- 
-                    </iframe>
-
+                    <div class="trailer-video">
+                        <h1>Video niet beschikbaar </h1>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
+<?php  //echo '<pre>',print_r($response,1),'</pre>'; ?>
 </body>
 
 </html>
