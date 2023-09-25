@@ -12,8 +12,10 @@ body{
 }
 a{
     text-decoration: none;
-/* }
-#title {
+    color: white;
+    cursor: pointer;
+ }
+/*#title {
     background-color: #9e2629;
 }
 
@@ -31,7 +33,7 @@ a{
     /* margin-left: 60px; */
     /* margin-top: 30px; */
     /* background-color: #9e2629 */
-}
+/* } */
 
 /* .poster {
     height: 284px;

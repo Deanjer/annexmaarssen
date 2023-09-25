@@ -66,7 +66,6 @@ echo "<div id='filmkaart-container'>";
 for ($i = 0; $i < count($response->results); $i++) {
   echo "<div id='filmkaart'>";
   echo "<div id='kaarttext'>";
- 
   echo "<img class='posters';'; src=\"". $response->results[$i]->poster . "\"/>";
   echo "<div class='film-title'>Title: ". $response->results[$i]->movie_name ."</div>" . "<br><br>";
   echo "<span>Date: ". $response->results[$i]->movie_date ."</span>" . "<br><br>";
@@ -75,6 +74,7 @@ for ($i = 0; $i < count($response->results); $i++) {
   echo "<span>Language: ". $response->results[$i]->original_language ."</span>" . "<br><br>";
   echo "<a href='info.php?id=" . $response->results[$i]->movie_id . "'>";
   echo "<button class='info-button'>Meer info</button" . "<br><br>";
+  echo "</a>";
   // echo "<span>". $response->results[$i]-> . "</span>" . "<br>";
   echo "</div>";
   echo "</div>";
