@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#title{
+    color: #9E2629;
+    font-size: 70px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    max-width: 580px;
+    margin-left: 50px;
+}
+
+.catagorie {
+    color: #9E2629;
+    font-size: 30px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    max-width: 200px;
+    float: left;
+    margin-left: 70px;
+}
+
+.form {
+    background-color: #ffffff;
+    color: #9E2629;
+    margin-top: 100px; 
+}

@@ -21,7 +21,7 @@ $sql = "INSERT INTO `resevering` (`id`, `datum/tijdstip`, `kland_id`, `ticket_ki
 VALUES (NULL, '2023-07-21 13:59:24.000000', '1', '4', '1', '1', '', '')";
 
 if ($conn->query($sql) === TRUE) {
-  echo "New record created successfully";
+  echo "Bedant voor uw bestellen en geniet van de show.";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
