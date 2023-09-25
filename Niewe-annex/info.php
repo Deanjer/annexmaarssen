@@ -21,7 +21,7 @@
                             // echo '<img src="' . $response->poster . '" alt="Poster">';
                             echo '<h1 class="movie-title-top">' . $response->movie_name . '</h1>';
                         } else {
-                            echo '<p>Werkt niet.</p>';
+                            echo '<p>Reload.</p>';
                         }
                     
                     
