@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="./css/header.css">
 <header>
     <div id="logo"><img src="./img/logos.png"></div>
-    <div id="headerMenuContent">
+    <div class="headerMenuContent hamburger">
         <div class="filmagenda"><a href="./agenda.php">FILM AGENDA</a></div>
         <div class="vesteginen">ALLE VESTEGINEN</div>
         <div class="contact">CONTACT</div>
