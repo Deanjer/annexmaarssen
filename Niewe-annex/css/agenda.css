@@ -141,20 +141,7 @@ a{
         width: 24%;
     }
 }
-@media only screen and (max-width: 600px) {
-    #kaarttext{
-        background-color: white;
-        height: 750px;
-    }
-    #filmkaart{
-        width: 49%;
-    }
-    /* .agenda-top-title h2{
-        color: #9E2629;
-        font-size: 10px;
-        margin-top: 25px;
-    } */
-}
+
 @media only screen and (max-width: 500px) {
     .agenda-top-title h2{
         color: #9E2629;
@@ -181,6 +168,20 @@ a{
         background-color: white;
         height: 600px;
     }}
+    @media only screen and (max-width: 600px) {
+        #kaarttext{
+            background-color: white;
+            height: 750px;
+        }
+        #filmkaart{
+            width: 49%;
+        }
+        /* .agenda-top-title h2{
+            color: #9E2629;
+            font-size: 10px;
+            margin-top: 25px;
+        } */
+    }
 .info-button{
     width: 80%;
     height: 25px;
