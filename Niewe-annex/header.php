@@ -2,9 +2,9 @@
 <header>
     <div id="logo"><img src="./img/logos.png"></div>
     <div id="headerMenuContent">
-        <div id="filmagenda"><a href="./agenda.php">FILM AGENDA</a></div>
-        <div id="vesteginen">ALLE VESTEGINEN</div>
-        <div id="contact">CONTACT</div>
+        <div class="filmagenda"><a href="./agenda.php">FILM AGENDA</a></div>
+        <div class="vesteginen">ALLE VESTEGINEN</div>
+        <div class="contact">CONTACT</div>
     </div><br>
     <div id="tickets">
         <div class="blank tikcetblank"></div>
