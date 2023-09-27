@@ -3,7 +3,7 @@
     <?php 
     include 'api.php';
     ?>
-    <div id="logo"><img src="./img/logos.png"></div>
+    <a href="homepage.php"><div id="logo"><img src="./img/logos.png"></div></a>
     <div class="headerMenuContent">
         <div class="filmagenda"><a href="./agenda.php">FILM AGENDA</a></div>
         <div class="vesteginen">ALLE VESTEGINEN</div>
