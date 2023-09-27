@@ -147,6 +147,10 @@ header{
         justify-content: space-between;
         font-size: 8px;
     }
+    #tickets h2{
+      font-size: 8px;
+      margin-top: 31px;
+  }
     .dropbtn {
       font-size: 6px;
     }
@@ -156,7 +160,7 @@ header{
       height: 20px;
     }
     #bestelbutton button{
-      max-width: 50px;
+      max-width: 70px;
       width: 100%;
     }
     .bestelText{
@@ -177,5 +181,15 @@ header{
     }
     .contact{
       display: none;
+    }
+    .tikcetblank{
+      max-width: 50px;
+      width: 100%;
+    }
+    .btnText{
+      margin-top: -3px;
+    }
+    .bestelText{
+      margin-top: -6px;
     }
   }

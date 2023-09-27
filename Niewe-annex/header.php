@@ -1,5 +1,8 @@
 <link rel="stylesheet" href="./css/header.css">
 <header>
+    <?php 
+    include 'api.php';
+    ?>
     <div id="logo"><img src="./img/logos.png"></div>
     <div class="headerMenuContent hamburger">
         <div class="filmagenda"><a href="./agenda.php">FILM AGENDA</a></div>
@@ -13,9 +16,9 @@
         <div class="dropdown">
             <button class="dropbtn"><div class="btnText">KIES JE FILM</div></button>
             <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#">Oppenheimer</a>
+                <a href="#">Barbie</a>
+                <a href="#">The Nun II</a>
             </div>
         </div>
         <div class="blank space"></div>

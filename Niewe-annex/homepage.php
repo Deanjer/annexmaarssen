@@ -43,6 +43,7 @@
             <div class="gebouw"><img src="./img/Naamloos.png"></div>
         </div>
     </div>
+    <?php include 'footer.php';?>
 </body>
 
 </html>
