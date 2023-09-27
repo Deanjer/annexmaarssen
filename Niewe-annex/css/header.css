@@ -42,6 +42,7 @@ header{
     width: 200px;
     text-align: center;
     padding-top: 70px;
+    cursor: pointer;
 }
 .contact{
     /* border: solid black; */
@@ -49,6 +50,7 @@ header{
     width: 200px;
     text-align: center;
     padding-top: 70px;
+    cursor: pointer;
 }
 #tickets{
     background-color: #9E2629;
