@@ -32,6 +32,7 @@ body{
 .form {
     background-color: #ffffff;
     color: #9E2629;
+    padding: 25px;
 }
 .form input{
     background-color: white;
