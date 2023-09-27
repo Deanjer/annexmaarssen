@@ -59,7 +59,8 @@
                                 <span class="info-films">Filmlengte: <?php echo $response->runtime ?> </span>
                                 <span class="info-films">Land: <?php echo $response->country_of_origin ?> </span>
                                 <span class="info-films">Imdb score: <?php echo $response->rating ?> </span>
-                                <span class="info-films">Cast: <?php echo $response->cast ?> </span>
+                                <?php include 'cast.php'?>
+                                <span class="info-films">Cast: <?php print_r($castresponse->cast) ?> </span>
                             </div>
                         </div>
                         </div>
@@ -78,7 +79,10 @@
             </div>
         </div>
     </div>
-<?php  //echo '<pre>',print_r($response,1),'</pre>'; ?>
+<?php  //echo '<pre>',print_r($castresponse,1),'</pre>'; 
+//var_dump($castresponse)
+?>
+
 <?php include 'footer.php';?>
 </body>
 
