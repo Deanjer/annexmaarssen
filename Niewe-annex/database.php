@@ -11,6 +11,22 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $data = $_REQUEST['Voornaam'];
+  $data = $_REQUEST['Achternaam'];
+  $data = $_REQUEST['E-Mail'];
+ 
+    if (empty($data)) {
+        echo "data is empty";
+    } else {
+        echo $data;
+    }
+}
+ 
+// Closing the connection.
+$conn->close();
+ 
+
 $sql = "INSERT INTO `klanten` (`Voornaam`, `Achternaam`, `email`)
 VALUES ('John', 'Doe', 'john@example.com')";
 
