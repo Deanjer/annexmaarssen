@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./css/bestel.css">
 </head>
 <body>
+    <?php
+        include 'header.php';
+    ?>
     <div class="flex-container">
     <div>
         <h1 id="title">Tickets Bestellen</h1>
@@ -20,7 +23,7 @@
     <div class="form-container">
     <div class="form">
         <div>
-            <h2 id="tickets">STAP 1: KIES JE TICKETS</h2>
+            <h2 class="tickets">STAP 1: KIES JE TICKETS</h2>
             <div id="info">
             <h4>TYPE</h4>
             <h4>PRIJS</h4>
@@ -33,14 +36,14 @@
         </div>
         <!-- form met tickets -->
         <div>
-            <h2 id="tickets">STAP 2: KIES JE STOEL</h2>
+            <h2 class="tickets">STAP 2: KIES JE STOEL</h2>
         </div>
         <div class="zaal">
             <img src="./img/zaalrood.png" alt="zaal">
         </div>
         <!-- foto van de zaal en stoelen aan klikken -->
         <div>
-            <h2 id="tickets">STAP 3: CONTROLEER JE BESTELLING</h2>
+            <h2 class="tickets">STAP 3: CONTROLEER JE BESTELLING</h2>
         </div>
         <!-- via de API een kleine info pagina waarin een poster en tijd. Via de database de stoelen en tickets -->
         <div>
@@ -58,5 +61,8 @@
     <div class="afrekenen">
     <h1 id="betalen">AFREKENEN</h1>
     </div>
+    <?php
+        include 'footer.php';
+    ?>
 </body>
 </html>

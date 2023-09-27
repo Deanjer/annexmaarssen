@@ -10,7 +10,7 @@ body{
 #title{
     color: #9E2629;
     font-size: 70px;
-    margin-top: 15px;
+    margin-top: 30px;
     background-color: #ffffff;
     max-width: 700px;
     margin-left: 130px;
@@ -51,6 +51,10 @@ body{
 .flex-container{
     display: flex;
     flex-direction: column;
+}
+
+.tickets {
+    background-color: #ffffff;
 }
 
 .zaal img {
