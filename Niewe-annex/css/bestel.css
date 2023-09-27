@@ -12,8 +12,9 @@ body{
     font-size: 70px;
     margin-top: 15px;
     background-color: #ffffff;
-    max-width: 580px;
-    margin-left: 50px;
+    max-width: 700px;
+    margin-left: 130px;
+    text-align: center;
 }
 
 .catagorie {
@@ -22,13 +23,16 @@ body{
     margin-top: 15px;
     background-color: #ffffff;
     max-width: 200px;
+    width: 100%;
     float: left;
-    margin-left: 70px;
+    margin-left: 130px;
+    text-align: center;
 }
 
 .form {
     background-color: #ffffff;
     color: #9E2629;
+    padding: 25px;
 }
 .form input{
     background-color: white;

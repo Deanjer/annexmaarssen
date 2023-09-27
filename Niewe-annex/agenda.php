@@ -11,7 +11,6 @@
 
     <?php 
     include 'api.php';
-    include './header.php';
     ?>
     <?php //include 'header.php' ?>
     <!-- <div>

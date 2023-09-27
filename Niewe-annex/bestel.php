@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="./css/bestel.css">
 </head>
 <body>
-    
     <div class="flex-container">
     <div>
         <h1 id="title">Tickets Bestellen</h1>
