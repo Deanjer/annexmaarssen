@@ -10,8 +10,8 @@
 
 <body>
 <?php error_reporting(E_ALL); ?>
+<?php include 'header.php'?>
     <?php include 'api.php'?>
-    <div class="tst"></div>
     <div class="info-main">
         <div class="info-main-container">
             <div class="info-main-top">
@@ -60,14 +60,19 @@
                                     <span class="info-films">Filmlengte: <?php echo $response->runtime ?> </span>
                                     <span class="info-films">Land: <?php echo $response->country_of_origin ?> </span>
                                     <span class="info-films">Imdb score: <?php echo $response->rating ?> </span>
+                                    </div>
                                     <?php include 'cast.php';?>
                                         <?php //echo '<pre>' ; var_dump($castresponse->cast); '</pre>' ?>
                                         <div class="profile-container">
                                     <?php for($i = 0; $i < 4; $i++) {
+                                        echo "<div id='cast-flex'>";
+                                         echo "<div id='cast-container'>";
                                        echo "<img class='profile_pic';'; src=\"". $castresponse->cast[$i]->profile_picture . "\"/><br>";
-                                       echo "<br><span> ". $castresponse->cast[$i]->name ."</span>" . "<br><br>";
+                                       echo "<br><div> ". $castresponse->cast[$i]->name ."</div>" . "<br><br>";
+                                       echo "</div>";
+                                       echo "</div>";
                                     } ?>
-                                    </div>
+                                    
 
 
                                     
