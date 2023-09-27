@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    /* background-color: #000000; */
+}
+body{
+    background-color: black;
+}
+#title{
+    color: #9E2629;
+    font-size: 70px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    max-width: 580px;
+    margin-left: 50px;
+}
+
+.catagorie {
+    color: #9E2629;
+    font-size: 30px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    max-width: 200px;
+    float: left;
+    margin-left: 70px;
+}
+
+.form {
+    background-color: #ffffff;
+    color: #9E2629;
+}
+.form input{
+    background-color: white;
+}
+.form-container{
+    background-color: white;
+    width: 80%;
+    height: 200px;
+    margin-top: 20px;
+}
+.form-flex{
+    display: flex;
+    justify-content: center;
+    
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.zaal img {
+    margin-left: 150px;
+}
+
+.afrekenen{
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 15px;
+    background-color: #9E2629;
+    max-width: 1200px;
+    margin-left: 0px;
+}
+
+.afrekenen #betalen {
+    margin-left: 250px;
+}

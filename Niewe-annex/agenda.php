@@ -9,7 +9,10 @@
 </head>
 <body>
 
-    <?php include 'api.php' ?>
+    <?php 
+    include 'api.php';
+    include './header.php';
+    ?>
     <?php //include 'header.php' ?>
     <!-- <div>
         <h1 id="title">FILM AGENDA</h1>

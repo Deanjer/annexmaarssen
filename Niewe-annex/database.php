@@ -11,6 +11,22 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $data = $_REQUEST['Voornaam'];
+  $data = $_REQUEST['Achternaam'];
+  $data = $_REQUEST['E-Mail'];
+ 
+    if (empty($data)) {
+        echo "data is empty";
+    } else {
+        echo $data;
+    }
+}
+ 
+// Closing the connection.
+$conn->close();
+ 
+
 $sql = "INSERT INTO `klanten` (`Voornaam`, `Achternaam`, `email`)
 VALUES ('John', 'Doe', 'john@example.com')";
 
@@ -21,7 +37,7 @@ $sql = "INSERT INTO `resevering` (`id`, `datum/tijdstip`, `kland_id`, `ticket_ki
 VALUES (NULL, '2023-07-21 13:59:24.000000', '1', '4', '1', '1', '', '')";
 
 if ($conn->query($sql) === TRUE) {
-  echo "New record created successfully";
+  echo "Bedant voor uw bestellen en geniet van de show.";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
