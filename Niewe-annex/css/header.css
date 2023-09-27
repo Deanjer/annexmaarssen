@@ -54,9 +54,12 @@ header{
     background-color: #9E2629;
     height: 70px;
     width: 100%;
-    color: white;
     display: flex;
     flex-direction: row;
+}
+#tickets h2{
+  color: white;
+  margin-top: 20px;
 }
 .tikcetblank{
     max-width: 170px;
