@@ -135,7 +135,7 @@ header{
     width: 15px;
   }
   
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 700px){
     #logo{
         margin-top: 15px;
         max-width: 300px;
@@ -188,7 +188,7 @@ header{
       display: none;
     }
     .tikcetblank{
-      max-width: 50px;
+      max-width: 10px;
       width: 100%;
     }
     .btnText{
@@ -196,5 +196,13 @@ header{
     }
     .bestelText{
       margin-top: -6px;
+    }
+  }
+  @media only screen and (max-width: 1099px){
+    .vesteginen{
+      display: none;
+    }
+    .contact{
+      display: none;
     }
   }
