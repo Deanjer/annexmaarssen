@@ -4,7 +4,7 @@
     include 'api.php';
     ?>
     <div id="logo"><img src="./img/logos.png"></div>
-    <div class="headerMenuContent hamburger">
+    <div class="headerMenuContent">
         <div class="filmagenda"><a href="./agenda.php">FILM AGENDA</a></div>
         <div class="vesteginen">ALLE VESTEGINEN</div>
         <div class="contact">CONTACT</div>
@@ -22,6 +22,6 @@
             </div>
         </div>
         <div class="blank space"></div>
-        <div id="bestelbutton"><button><div class="bestelText">BESTEL TICKETS</div></button></div>
+        <a href="bestel.php"><div id="bestelbutton"><button><div class="bestelText">BESTEL TICKETS</div></button></div></a>
     </div>
 </header>
