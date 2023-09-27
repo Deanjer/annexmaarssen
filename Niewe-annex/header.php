@@ -22,6 +22,6 @@
             </div>
         </div>
         <div class="blank space"></div>
-        <div id="bestelbutton"><button><div class="bestelText">BESTEL TICKETS</div></button></div>
+        <a href="bestel.php"><div id="bestelbutton"><button><div class="bestelText">BESTEL TICKETS</div></button></div></a>
     </div>
 </header>
