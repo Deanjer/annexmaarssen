@@ -10,6 +10,7 @@
 <body>
 
     <?php include 'api.php' ?>
+    <?php //include 'header.php' ?>
     <!-- <div>
         <h1 id="title">FILM AGENDA</h1>
     </div> -->
@@ -62,7 +63,7 @@ $response = json_decode($response);
             <h2 class="">Film Agenda</h2>
         </div>
         <div class="agenda-top-container-buttons">
-        <div class="material-symbols-outlined">
+        <div id="tune" class="material-symbols-outlined">
         tune
         </div> 
         <div class="agenda-top-films"><p>FILMS</p></div>
@@ -98,7 +99,9 @@ echo "</div>";
 
 ?>
 <?php   //echo '<pre>',print_r($response,1),'</pre>'; ?>
+
 </div>
 </div>
+<?php include 'footer.php';?>
     </body>
 </html>

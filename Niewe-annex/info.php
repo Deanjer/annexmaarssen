@@ -79,6 +79,7 @@
         </div>
     </div>
 <?php  //echo '<pre>',print_r($response,1),'</pre>'; ?>
+<?php include 'footer.php';?>
 </body>
 
 </html>
