@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="./css/bestel.css">
 </head>
 <body>
-    <!-- <?php 
-    include './header.php';
-    ?> -->
     <div class="flex-container">
     <div>
         <h1 id="title">Tickets Bestellen</h1>
