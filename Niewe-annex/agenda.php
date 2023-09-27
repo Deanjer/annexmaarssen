@@ -10,6 +10,7 @@
 <body>
 
     <?php 
+    include 'header.php';
     include 'api.php';
     ?>
     <?php //include 'header.php' ?>

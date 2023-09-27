@@ -25,9 +25,9 @@
         <div>
             <h2 class="tickets">STAP 1: KIES JE TICKETS</h2>
             <div id="info">
-            <h4>TYPE</h4>
-            <h4>PRIJS</h4>
-            <h4>AANTAL</h4>
+                <h4>TYPE</h4>
+                <h4>PRIJS</h4>
+                <h4>AANTAL</h4>
             </div>
             <div class="vouchercode">
                 <h4>VOUCHERCODE</h4>
